@@ -2,6 +2,43 @@
   var hojaPrincipal = planilla.getSheetByName('Calculadora calorías');
 
 
+
+
+
+
+class Alimento 
+{
+  constructor(nombre, calorias, proteina, carbohidratos, grasa) 
+  {
+    if (this.constructor === Alimento) 
+      {
+        throw new Error("Alimento es una clase abstracta");
+      }
+
+    this.nombre = nombre;
+    this.calorias = calorias;
+    this.proteina = proteina;
+    this.carbohidratos = carbohidratos;
+    this.grasa = grasa;
+  }
+
+  getMacros(gramos) 
+  {
+    return {
+      calorias: this.calorias * gramos,
+      proteina: this.proteina * gramos,
+      carbohidratos: this.carbohidratos * gramos,
+      grasa: this.grasa * gramos
+    };
+  }
+}
+
+
+
+
+
+
+
 // A L I M E N T O S
 let huevoEntero = {};
 huevoEntero.nombre = "Huevo entero";
