@@ -2,7 +2,9 @@
   var hojaPrincipal = planilla.getSheetByName('Calculadora calorías');
 
 
-
+function test() {
+  console.log("Hola desde Apps Script");
+}
 
 
 
