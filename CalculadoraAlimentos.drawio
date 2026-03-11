@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.3.8">
+  <diagram name="Página-1" id="riHhtc30cSMKnkdOdPCa">
+    <mxGraphModel dx="1188" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cePZSvdmndnldggNr1pe-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Alimento" vertex="1">
+          <mxGeometry height="372" width="490" x="100" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-2" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nombre: String" vertex="1">
+          <mxGeometry height="26" width="490" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-6" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: String" vertex="1">
+          <mxGeometry height="26" width="490" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-5" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- proteinaPorGramo: number" vertex="1">
+          <mxGeometry height="26" width="490" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-7" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- carbohidratosPorGramo: number" vertex="1">
+          <mxGeometry height="26" width="490" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-8" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- grasasPorGramo: number" vertex="1">
+          <mxGeometry height="26" width="490" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-9" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- caloríasPorGramo: number" vertex="1">
+          <mxGeometry height="26" width="490" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-10" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- microNutrientes: Map&amp;lt;string, number&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="490" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-3" parent="cePZSvdmndnldggNr1pe-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="490" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-4" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ obtenerMicronutrientes(number gramos): Map&amp;lt;string, number&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="490" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-11" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ obtenerProteina(number gramos): cantidad" vertex="1">
+          <mxGeometry height="26" width="490" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-12" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ obtenerCarbohidratos(number gramos): cantidad" vertex="1">
+          <mxGeometry height="26" width="490" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-13" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ obtenerGrasas(number gramos): cantidad" vertex="1">
+          <mxGeometry height="26" width="490" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-14" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ obtenerCalorias(number gramos): cantidad" vertex="1">
+          <mxGeometry height="26" width="490" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cePZSvdmndnldggNr1pe-15" parent="cePZSvdmndnldggNr1pe-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ añadirMicronutriente(string nombre, number gramos): void" vertex="1">
+          <mxGeometry height="26" width="490" y="346" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

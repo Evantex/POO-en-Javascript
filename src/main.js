@@ -3,7 +3,7 @@
 
 
 function test() {
-  console.log("Hola desde Apps Script");
+  console.log(typeof "Hola niñoooooos");
 }
 
 
